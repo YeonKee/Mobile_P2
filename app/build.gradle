@@ -30,6 +30,10 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    buildFeatures{
+        dataBinding true    // Whether data bindiing is used, it will help to create upper class
+    }
 }
 
 dependencies {
